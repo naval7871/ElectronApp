@@ -13,9 +13,9 @@ import CircleIcon from '@mui/icons-material/Circle';
 export interface SideBarInterface {
     name: string;
     status: statusEnum;
-    reviewLater: Boolean;
-    isActive: Boolean;
-    isDataModified: Boolean
+    reviewLater: boolean;
+    isActive: boolean;
+    isDataModified: boolean
 }
 
 function SideBar({name, status, reviewLater, isActive, isDataModified} : SideBarInterface){

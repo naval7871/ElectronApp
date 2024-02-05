@@ -8,7 +8,7 @@ interface TabsForSideBarAndTopBarInterface {
     onMouseOut?: any;
     style?: any;
     type: string;
-    isActive?: Boolean;
+    isActive?: boolean;
     fileName: string;
 }
 

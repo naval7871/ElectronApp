@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import TabsForSideBarAndTopBar from "../../shared/components/Tabs";
 import { closeFile } from "../../features/files/filesSlice";
 
-function TopBar({name, isActive} : {name: string, isActive: Boolean}){
+function TopBar({name, isActive} : {name: string, isActive: boolean}){
     const dispatch = useAppDispatch();
     const [isHover, setIsHover] = useState(false)
 
